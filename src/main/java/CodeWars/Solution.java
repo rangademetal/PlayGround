@@ -7,9 +7,4 @@ public class Solution {
             return pin.matches("\\d+");
         return false;
     }
-
-    public static void main(String [] args) {
-        String str = "1223456a";
-        System.out.println(validatePin("123a6"));
-    }
 }
