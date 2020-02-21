@@ -7,11 +7,4 @@ public class Kata {
 
         return String.valueOf(word.charAt(word.length()/2));
     }
-
-    public static void main(String[] args) {
-        String asd="test";
-        String asd2="tes";
-        System.out.println(getMiddle(asd));
-        System.out.println(getMiddle(asd2));
-    }
 }
