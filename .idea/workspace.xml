@@ -2,9 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="371e037d-5e59-4ed3-a0d7-c20e86af9338" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/CodeWars/Kata.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/CodeWars/getMiddleTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/CodeWars/Solution.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/CodeWars/Solution.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -50,9 +50,9 @@
       <recent name="" />
     </key>
   </component>
-  <component name="RunManager" selected="JUnit.SolutionTest.validPins">
-    <configuration name="Solution" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="CodeWars.Solution" />
+  <component name="RunManager" selected="JUnit.getMiddleTest.oddTests">
+    <configuration name="Kata" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="CodeWars.Kata" />
       <module name="PlayGround" />
       <extension name="coverage">
         <pattern>
@@ -64,8 +64,8 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="test" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="CodeWars.test" />
+    <configuration name="Solution" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="CodeWars.Solution" />
       <module name="PlayGround" />
       <extension name="coverage">
         <pattern>
@@ -92,22 +92,6 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="FindOddTest.findTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="PlayGround" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="CodeWars.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="CodeWars" />
-      <option name="MAIN_CLASS_NAME" value="CodeWars.FindOddTest" />
-      <option name="METHOD_NAME" value="findTest" />
-      <option name="TEST_OBJECT" value="method" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <configuration name="SolutionTest.validPins" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="PlayGround" />
       <extension name="coverage">
@@ -124,13 +108,29 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="getMiddleTest.oddTests" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="PlayGround" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="CodeWars.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="CodeWars" />
+      <option name="MAIN_CLASS_NAME" value="CodeWars.getMiddleTest" />
+      <option name="METHOD_NAME" value="oddTests" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.getMiddleTest.oddTests" />
+        <item itemvalue="Application.Kata" />
         <item itemvalue="JUnit.SolutionTest.validPins" />
         <item itemvalue="Application.Solution" />
         <item itemvalue="JUnit.FindOddTest" />
-        <item itemvalue="JUnit.FindOddTest.findTest" />
-        <item itemvalue="Application.test" />
       </list>
     </recent_temporary>
   </component>
@@ -156,6 +156,10 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="210" y="186" width="1710" height="721" key="#com.intellij.execution.junit2.states.ComparisonFailureState$DiffDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1582292670051" />
+    <state x="652" y="25" width="596" height="978" key="#com.intellij.refactoring.rename.AutomaticRenamingDialog" timestamp="1582302228997">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="652" y="25" width="596" height="978" key="#com.intellij.refactoring.rename.AutomaticRenamingDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1582302228997" />
     <state x="987" y="329" width="524" height="495" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog" timestamp="1582293680709">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
@@ -164,22 +168,22 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="743" y="277" width="424" height="479" key="FileChooserDialogImpl/0.0.1920.1040@0.0.1920.1040" timestamp="1582236568221" />
-    <state width="1878" height="302" key="GridCell.Tab.0.bottom" timestamp="1582298033108">
+    <state width="1878" height="302" key="GridCell.Tab.0.bottom" timestamp="1582303631025">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1878" height="302" key="GridCell.Tab.0.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1582298033108" />
-    <state width="1878" height="302" key="GridCell.Tab.0.center" timestamp="1582298033107">
+    <state width="1878" height="302" key="GridCell.Tab.0.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1582303631025" />
+    <state width="1878" height="302" key="GridCell.Tab.0.center" timestamp="1582303631025">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1878" height="302" key="GridCell.Tab.0.center/0.0.1920.1040@0.0.1920.1040" timestamp="1582298033107" />
-    <state width="1878" height="302" key="GridCell.Tab.0.left" timestamp="1582298033106">
+    <state width="1878" height="302" key="GridCell.Tab.0.center/0.0.1920.1040@0.0.1920.1040" timestamp="1582303631025" />
+    <state width="1878" height="302" key="GridCell.Tab.0.left" timestamp="1582303631024">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1878" height="302" key="GridCell.Tab.0.left/0.0.1920.1040@0.0.1920.1040" timestamp="1582298033106" />
-    <state width="1878" height="302" key="GridCell.Tab.0.right" timestamp="1582298033107">
+    <state width="1878" height="302" key="GridCell.Tab.0.left/0.0.1920.1040@0.0.1920.1040" timestamp="1582303631024" />
+    <state width="1878" height="302" key="GridCell.Tab.0.right" timestamp="1582303631025">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1878" height="302" key="GridCell.Tab.0.right/0.0.1920.1040@0.0.1920.1040" timestamp="1582298033107" />
+    <state width="1878" height="302" key="GridCell.Tab.0.right/0.0.1920.1040@0.0.1920.1040" timestamp="1582303631025" />
     <state width="1868" height="298" key="GridCell.Tab.1.bottom" timestamp="1582236569287">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
@@ -200,9 +204,9 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="708" y="103" width="1024" height="840" key="SettingsEditor/0.0.1920.1040@0.0.1920.1040" timestamp="1582186713540" />
-    <state x="734" y="225" width="442" height="583" key="com.intellij.testIntegration.createTest.CreateTestDialog" timestamp="1582296400195">
+    <state x="734" y="225" width="442" height="583" key="com.intellij.testIntegration.createTest.CreateTestDialog" timestamp="1582302027266">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="734" y="225" width="442" height="583" key="com.intellij.testIntegration.createTest.CreateTestDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1582296400195" />
+    <state x="734" y="225" width="442" height="583" key="com.intellij.testIntegration.createTest.CreateTestDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1582302027266" />
   </component>
 </project>
